@@ -2,7 +2,7 @@ library(tidyverse)
 library(ggplot2)
 library(zoo)
 
-## CREATE FIGURES FOR THESIS
+## READ IN DATA FOR FIGURE CREATION (ALL LAKES)
 
 #MENDOTA
 me_epi_vars <- read_csv('~/output/nhdhr_143249470/epi_vars.csv')
