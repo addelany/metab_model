@@ -360,19 +360,9 @@ input_param_df[1,'doc_l_init'] <- as.numeric(input_param_df[1,'doc_l_init'])*lak
 input_param_df[1,'poc_r_init'] <- as.numeric(input_param_df[1,'poc_r_init'])*lake_data_full[1,'volume_epi']
 input_param_df[1,'poc_l_init'] <- as.numeric(input_param_df[1,'poc_l_init'])*lake_data_full[1,'volume_epi']
 
-
 ## RUN THE MODEL
 source(paste0(current_dir,"/main_metab_function_model_script.R"), echo = FALSE)
 model_check <- metab_model(lake_data_full,input_param_df,lake_morphology) #rerun model again with optimized params
-
-#MAKE PLOTS #
-source(paste0(current_dir,"/diagnostic_plots_model_script.R"), echo = FALSE)
-model_plots <- make_diagnostic_plot(model_check,lake_data_full,obs_df,input_param_df)
-
-
-##calculate residuals
-source("~/calculate_residuals_model_script.R", echo = FALSE)
-residual_store <- res_df_list
 
 ## SAVE MODEL OUTPUT
 sampledate <- lake_data_full$sampledate
