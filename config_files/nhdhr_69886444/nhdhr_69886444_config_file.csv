@@ -1,0 +1,2 @@
+poc_r_init,poc_l_init,doc_r_init,doc_l_init,docr_inflow,docl_inflow,pocr_inflow,pocl_inflow,pmax,resp_poc_r,resp_poc_l,resp_doc_r,resp_doc_l,resp_sed_epi,resp_sed_hypo,k_mm_do,c_w,c_poc_r,c_poc_l,c_doc_r,c_doc_l,ice_transmit,c_npp_split,ip,k_atm,k_winter_adjust,k_pocr_epi,k_pocl_epi,k_pocr_hypo,k_pocl_hypo,theta_npp,theta_resp,rt,albedo
+0.2,0,3.5,0.5,8,0,3,0,2,0.005,0.15,0.001,0.03,0,0.3,0.5,0.125,0.7,0.7,0.02,0.02,0.05,0.8,0.045,0.7,0.1,2,1.5,2,1.5,1.12,1.04,5.1,0.3
