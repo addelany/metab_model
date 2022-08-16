@@ -13,12 +13,12 @@ All data were obtained through open-access online repositories (NTL-LTER, USGS).
 
 # Contents
 The six lakes are organized by their respective identifiers from the high resolution National Hydrography Dataset (NHD):
-* nhdhr_143249470 = Lake Mendota
-* nhdhr_143249640 = Lake Monona
-* nhdhr_69886156 = Allequash Lake
-* nhdhr_69886228 = Trout Lake
-* nhdhr_69886284 = Big Muskellunge Lake
-* nhdhr_69886444 = Sparkling Lake
+* Lake Mendota = nhdhr_143249470
+* Lake Monona = nhdhr_143249640
+* Allequash Lake = nhdhr_69886156
+* Trout Lake = nhdhr_69886228
+* Big Muskellunge Lake = nhdhr_69886284
+* Sparkling Lake = nhdhr_69886444
 
 More information on each lake can be found here: https://lter.limnology.wisc.edu/about/lakes
 
