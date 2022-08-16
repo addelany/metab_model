@@ -12,7 +12,7 @@ Inorganic carbon (IC) is not tracked in the model and is assumed to be a non-lim
 All data were obtained through open-access online repositories (NTL-LTER, USGS).
 
 # Contents
-The six lakes are organized by their respective identifiers from the high resolution National Hydrography Dataset (NHD):
+The six lakes are organized by their respective identifiers from the USGS high resolution National Hydrography Dataset (NHD):
 * Lake Mendota = nhdhr_143249470
 * Lake Monona = nhdhr_143249640
 * Allequash Lake = nhdhr_69886156
