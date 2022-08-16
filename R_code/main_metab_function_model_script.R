@@ -68,16 +68,16 @@ metab_model <- function(driver_df, params_df, lake_info){
     ## Inflow/Outflow calculations
     if (nhdid %in% c('nhdhr_143249640')){
       if (row == 2){ ### no first timestep information -- use estiamted inflow concentrations from config file
-        epi_fluxes[row,'doc_l_in'] <- 0#params_df[1,"docl_inflow"]*(driver_df[row-1,'outflow_vol']) #inflow volume as outflow volume
+        epi_fluxes[row,'doc_l_in'] <- 0 #inflow volume as outflow volume
         epi_fluxes[row,'doc_l_out'] <- (epi_vars[row-1,'doc_l_value']/driver_df[row-1,'volume_epi'])*(driver_df[row-1,'outflow_vol'])
 
-        epi_fluxes[row,'doc_r_in'] <- 0#params_df[1,"docr_inflow"]*(driver_df[row-1,'outflow_vol'])
+        epi_fluxes[row,'doc_r_in'] <- 0
         epi_fluxes[row,'doc_r_out'] <- (epi_vars[row-1,'doc_r_value']/driver_df[row-1,'volume_epi'])*(driver_df[row-1,'outflow_vol'])
 
-        epi_fluxes[row,'poc_l_in'] <- 0#params_df[1,"pocl_inflow"]*(driver_df[row-1,'outflow_vol'])
+        epi_fluxes[row,'poc_l_in'] <- 0
         epi_fluxes[row,'poc_l_out'] <- (epi_vars[row-1,'poc_l_value']/driver_df[row-1,'volume_epi'])*(driver_df[row-1,'outflow_vol'])
 
-        epi_fluxes[row,'poc_r_in'] <- 0#params_df[1,"pocr_inflow"]*(driver_df[row-1,'outflow_vol'])
+        epi_fluxes[row,'poc_r_in'] <- 0
         epi_fluxes[row,'poc_r_out'] <- (epi_vars[row-1,'poc_r_value']/driver_df[row-1,'volume_epi'])*(driver_df[row-1,'outflow_vol'])
 
       }else{ ##if timestep > 2
