@@ -38,7 +38,7 @@ nhdid <-  "nhdhr_143249470" #Mendota
 
 After running the model, `calculate_uncertainty_model_script.R` is used to calcuate model uncertainty.
 
-The last step is to use `figure_creation model_script' to visualize model output.
+The last step is to use `figure_creation model_script` to visualize model output.
 
 ### config_files
 The config_files folder contains model configuration information that is specific for each lake. These files include:
