@@ -1,0 +1,2 @@
+﻿Lake,Date,Year,Month,DOY,Evap,SW_Outflw,GW_Outflw,Total_Outputs
+Lake Identifier,Day of prediction,Year of prediction,Month of prediction,Day of year,Evaporation (mm/day),Surface water outflow (m3/day),Groundwater outflow (m3/day),Total water outflow (m3/day)

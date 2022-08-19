@@ -1,0 +1,2 @@
+﻿Lake,Date,Year,Month,DOY,Precip,SW_Inflw,TOTAL_GW_INTO_LAKE,Total_Inputs
+Lake identifier,Date of prediction (YYYY-MM-DD),Year of prediction,Month of prediction,Day of year,precipitation (mm/day) (not used in model),Surface water volume inflow (m3/day),Groundwater volume inflow (m3/day),Total water volume inflow (m3/day)

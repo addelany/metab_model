@@ -1,0 +1,2 @@
+﻿time,yah_flow_vol,pb_flow_vol,total_inflow_volume
+Day of prediction (YYYY-MM-DD),Inflow volume from Yahara river (m3/day),Inflow volume from Pheasant Brach Creek (m3/day),Inflow volume from both sources (m3/day)
