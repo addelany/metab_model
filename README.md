@@ -45,7 +45,7 @@ After running the model, `calculate_uncertainty_model_script.R` is used to calcu
 The last step is to use `figure_creation model_script.R` to visualize model output.
 
 ### config_files
-The config_files folder contains model configuration information that is specific for each lake. These files include:
+The config_files folder contains model configuration information that is specific for each lake. Metadata is also available. These files include:
 * `*_config_fil.csv` = file for lake parameter configuration
 
 * `*.nml` = nml file for lake specific information such as morphometry and coordinate information
@@ -56,7 +56,7 @@ The config_files folder contains model configuration information that is specifi
 
 
 ### data
-The data folder contains input data used for running the model and observational data for each lake. The derived temperature profiles, ice flags, and the meteorology data was taken from the USGS data product: Process-based predictions of lake water temperature in the Midwest US. Water quality data was taken from the NTL_LTER. These files include:
+The data folder contains input data used for running the model and observational data for each lake. The derived temperature profiles, ice flags, and the meteorology data was taken from the USGS data product: Process-based predictions of lake water temperature in the Midwest US. Water quality data was taken from the NTL_LTER. Metadata for the input data is also available. These files include:
  * `pball_*_temperatures.csv`: derived temperature profiles from the USGS data product
  
  * `pball_*_ice_flag.csv` : flags for the presence or absence of ice on lake surface 
