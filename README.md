@@ -1,3 +1,7 @@
+Austin Delany, 
+UW-Madison Center for Limnology,
+addelany@gmail.com
+
 # Summary
 This repository includes code, data, and configuration files for running a 1-D aquatic ecosystem model for the purpose of studying organic carbon dynamics in north-temperate lakes. The model was run for six lakes on a daily timestep from 1995-2014, over two layers (surface layer and bottom layer). 
 
