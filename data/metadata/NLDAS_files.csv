@@ -1,0 +1,2 @@
+﻿time,ShortWave,LongWave,AirTemp,RelHum,WindSpeed,Rain,Snow
+Date of Prediction,Shortwave radiation (W/m2),Longwave radiation (W/m2),Air temperature (degrees C),Relative Humidity (%),Wind speed (m/s),Total rain (m/day),Total snow (m/day)
