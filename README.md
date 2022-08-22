@@ -57,7 +57,7 @@ The config_files folder contains model configuration information that is specifi
 
 ### data
 The data folder contains input data used for running the model and observational data for each lake. The derived temperature profiles, ice flags, and the meteorology data was taken from the USGS data product: Process-based predictions of lake water temperature in the Midwest US. Water quality data was taken from the NTL_LTER. Metadata for the input data is also available. These files include:
- * `pball_*_temperatures.csv`: derived temperature profiles from the USGS data product
+ * `pball_*_temperatures.csv`: derived temperature profiles
  
  * `pball_*_ice_flag.csv` : flags for the presence or absence of ice on lake surface 
 
