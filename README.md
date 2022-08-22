@@ -3,7 +3,7 @@ UW-Madison Center for Limnology,
 addelany@gmail.com
 
 # Summary
-This repository includes code, data, and configuration files for running a 1-D aquatic ecosystem model for the purpose of studying organic carbon dynamics in north-temperate lakes. The model was run for six lakes on a daily timestep from 1995-2014, over two layers (surface layer and bottom layer). 
+This repository includes code, data, and configuration files for running a 1-D aquatic ecosystem model for the purpose of studying organic carbon dynamics in north-temperate lakes. The model was run for six Wisconsin lakes on a daily timestep from 1995-2014, over two layers (surface layer and bottom layer). 
 
 The output for the model contains layer-specific predictions for state variables including recalcitrant and labile dissolved organic carbon (DOC_R, DOC_L), recalcitrant and labile particulate organic carbon (POC_R, POC_L), and dissolved oxygen (DO). Physical and metabolism fluxes, which are used to calculate state variables, are generated and tracked for each time step as well. All state variables and fluxes are in mass units (grams). See conceptual model diagram below:
 
